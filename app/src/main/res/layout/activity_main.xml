@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dev.ipati.redroid.MainActivity">
+
+    <Button
+        android:id="@+id/btHandleFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solution_first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btHandleSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solution_second"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btHandleFirst" />
+
+    <Button
+        android:id="@+id/btHandleThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solution_third"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btHandleSecond" />
+
+</android.support.constraint.ConstraintLayout>
